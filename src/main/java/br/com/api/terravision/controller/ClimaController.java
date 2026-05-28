@@ -36,7 +36,7 @@ public class ClimaController {
         return service.listarHistorico();
     }
 
-    @GetMapping("/historico/{id}")
+    @GetMapping("/historico/{id}" )
     public ClimaDTO buscarPorId(
             @PathVariable Long id
     ) {
