@@ -229,7 +229,8 @@ Exemplos:
   "risco": "NORMAL",
   "nivelRisco": "NORMAL",
   "tipoAlerta": "NORMAL",
-  "severidade": "BAIXO"
+  "severidade": "BAIXO",
+  "dataLeitura": "2026-05-31T15:18:28.2233238"
 }
 ```
 
