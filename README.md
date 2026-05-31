@@ -67,6 +67,10 @@ CREATE DATABASE terravision;
 # ⚙️ Configuração da API Key
 
 O projeto utiliza variável de ambiente para proteger a chave da OpenWeather API.
+Site OpenWeather para criar conta e gerar chave da API:
+```text
+  https://openweathermap.org/
+``` 
 
 ## Criar variável de ambiente no Windows
 
