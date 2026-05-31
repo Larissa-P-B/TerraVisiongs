@@ -102,7 +102,8 @@ public class ClimaServiceImpl implements IClimaService {
                 nuvens,
                 risco,
                 risco,
-                severidade
+                severidade,
+                regiao.getDataLeitura()
         );
     }
 
@@ -124,7 +125,8 @@ public class ClimaServiceImpl implements IClimaService {
                         regiao.getNuvens(),
                         regiao.getNivelRisco(),
                         regiao.getTipoAlerta(),
-                        regiao.getSeveridade()
+                        regiao.getSeveridade(),
+                        regiao.getDataLeitura()
                 ))
                 .toList();
     }
@@ -149,7 +151,8 @@ public class ClimaServiceImpl implements IClimaService {
                 regiao.getNuvens(),
                 regiao.getNivelRisco(),
                 regiao.getTipoAlerta(),
-                regiao.getSeveridade()
+                regiao.getSeveridade(),
+                regiao.getDataLeitura()
         );
     }
 
@@ -171,7 +174,8 @@ public class ClimaServiceImpl implements IClimaService {
                         regiao.getNuvens(),
                         regiao.getNivelRisco(),
                         regiao.getTipoAlerta(),
-                        regiao.getSeveridade()
+                        regiao.getSeveridade(),
+                        regiao.getDataLeitura()
                 ))
                 .toList();
     }

@@ -1,5 +1,7 @@
 package br.com.api.terravision.dto;
 
+import java.time.LocalDateTime;
+
 public record ClimaDTO(
 
         String cidade,
@@ -22,7 +24,9 @@ public record ClimaDTO(
 
         String tipoAlerta,
 
-        String severidade
+        String severidade,
+
+        LocalDateTime dataLeitura
 
 ) {
 }
