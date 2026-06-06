@@ -1,3 +1,9 @@
+## 👨‍💻 Integrantes
+
+* Larissa Pereira Biusse - RM 564068
+* Thamiris Almeida - RM 559155
+* Werbeth Nunes - RM 559067
+
 # 🌎 TerraVision API
 
 API REST desenvolvida em Java 21 + Spring Boot para monitoramento climático inteligente, utilizando integração com a API OpenWeather e persistência de dados em MySQL.
